@@ -1,7 +1,7 @@
 {
-  "name": "gameshelf",
+  "name": "pustakagame",
   "version": "2.0.0",
-  "description": "GameShelf: a static game review site (GitHub Pages ready). Data lives in the browser; Node.js is used for the dev server, tests, and syncing game data from RAWG.",
+  "description": "PustakaGame: a static game review site (GitHub Pages ready). Data lives in the browser; Node.js is used for the dev server, tests, and syncing game data from RAWG.",
   "private": true,
   "license": "MIT",
   "type": "module",

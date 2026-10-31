@@ -33,4 +33,4 @@ http
       res.writeHead(500).end('Server error');
     }
   })
-  .listen(port, () => console.log(`GameShelf running at http://localhost:${port}`));
+  .listen(port, () => console.log(`PustakaGame running at http://localhost:${port}`));

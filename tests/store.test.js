@@ -170,7 +170,7 @@ test('demo data loads once and the demo account can log in', async () => {
   assert.equal(await seedIfEmpty(store), true);
   assert.equal(await seedIfEmpty(store), false);
 
-  const user = await store.login({ email: 'demo@gameshelf.test', password: DEMO_PASSWORD });
+  const user = await store.login({ email: 'demo@pustakagame.test', password: DEMO_PASSWORD });
   assert.equal(user.name, 'Demo User');
   assert.equal(store.getGame('hades').reviewCount, 3); // entries for games missing from the catalog are skipped
   assert.ok(store.listReviews('hades').some((r) => r.votes > 0));

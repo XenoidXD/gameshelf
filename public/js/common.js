@@ -60,7 +60,7 @@ function navContent(user, active) {
   const link = (href, label, key) => h('a', { href, class: active === key ? 'active' : '' }, label);
   const logout = (store) => () => { store.logout(); location.href = 'index.html'; };
   return (store) => h('div', { class: 'nav-inner' },
-    h('a', { href: 'index.html', class: 'brand' }, 'Game', h('span', {}, 'Shelf')),
+    h('a', { href: 'index.html', class: 'brand' }, 'Pustaka', h('span', {}, 'Game')),
     h('nav', { class: 'nav-links', 'aria-label': 'Main' },
       link('index.html', 'Catalog', 'catalog'),
       link('top.html', 'Top games', 'top'),
@@ -90,7 +90,7 @@ export async function initPage(active) {
     }
   };
   document.getElementById('footer').replaceChildren(
-    h('p', {}, 'GameShelf. Game data powered by ', h('a', { href: 'https://rawg.io', target: '_blank', rel: 'noopener noreferrer' }, 'RAWG'), '.'),
+    h('p', {}, 'PustakaGame. Game data powered by ', h('a', { href: 'https://rawg.io', target: '_blank', rel: 'noopener noreferrer' }, 'RAWG'), '.'),
     h('p', {}, 'Everything you do here is saved in this browser only. ', h('button', { class: 'link-button', type: 'button', onclick: reset }, 'Reset demo data')));
   if (!store.persistent) notify('Your browser blocks storage, so changes will be lost when you close this tab.', 'error');
   return { store, user };

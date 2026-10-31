@@ -4,10 +4,10 @@
 export const DEMO_PASSWORD = 'password123';
 
 export const DEMO_USERS = [
-  { name: 'Demo User', email: 'demo@gameshelf.test' },
-  { name: 'Rina', email: 'rina@gameshelf.test' },
-  { name: 'Budi', email: 'budi@gameshelf.test' },
-  { name: 'Sari', email: 'sari@gameshelf.test' },
+  { name: 'Demo User', email: 'demo@pustakagame.test' },
+  { name: 'Rina', email: 'rina@pustakagame.test' },
+  { name: 'Budi', email: 'budi@pustakagame.test' },
+  { name: 'Sari', email: 'sari@pustakagame.test' },
 ];
 
 // [game id, user index, rating, review text]

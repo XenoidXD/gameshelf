@@ -24,7 +24,7 @@ function load() {
     root.replaceChildren(h('p', { class: 'empty error' }, err.message));
     return;
   }
-  document.title = `${game.title} | GameShelf`;
+  document.title = `${game.title} | PustakaGame`;
   root.replaceChildren(
     headerSection(game),
     h('section', { class: 'panel' }, h('h2', {}, 'About'), h('p', { class: 'description' }, game.description || 'No description yet.')),
