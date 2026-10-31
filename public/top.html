@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https://media.rawg.io; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'">
+  <title>Top games | GameShelf</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="nav" class="site-header"></header>
+  <main class="container">
+    <h1>Top games</h1>
+    <p class="muted" id="note"></p>
+    <label for="genre">Genre</label>
+    <select id="genre" class="narrow"><option value="">All genres</option></select>
+    <ol id="list" class="rank-list mt-md"></ol>
+  </main>
+  <footer id="footer" class="site-footer"></footer>
+  <script type="module" src="js/top.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https://media.rawg.io; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'">
+  <title>Log in | GameShelf</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="nav" class="site-header"></header>
+  <main class="container">
+    <section class="panel auth-box">
+      <div class="tabs" role="tablist">
+        <button class="btn active" id="tab-login" type="button" role="tab">Log in</button>
+        <button class="btn" id="tab-register" type="button" role="tab">Register</button>
+      </div>
+      <form id="form" novalidate>
+        <div id="name-field" hidden><label for="name">Name</label><input id="name" maxlength="40" autocomplete="name"></div>
+        <label for="email">Email</label><input id="email" type="email" maxlength="120" autocomplete="email" required>
+        <label for="password">Password</label><input id="password" type="password" maxlength="72" autocomplete="current-password" required>
+        <p id="pw-hint" class="muted mt-sm" hidden>At least 8 characters.</p>
+        <p id="error" class="error" role="alert"></p>
+        <button class="btn btn-primary full" id="submit" type="submit">Log in</button>
+      </form>
+      <p class="muted hint" id="demo-hint">Demo account: <strong>demo@gameshelf.test</strong> / <strong>password123</strong></p>
+      <p class="muted">Accounts are stored only in this browser (this is a static demo site).</p>
+    </section>
+  </main>
+  <footer id="footer" class="site-footer"></footer>
+  <script type="module" src="js/login.js"></script>
+</body>
+</html>

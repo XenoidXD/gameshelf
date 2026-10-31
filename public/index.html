@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https://media.rawg.io; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'">
+  <title>Catalog | GameShelf</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="nav" class="site-header"></header>
+  <main class="container">
+    <h1>Game catalog</h1>
+    <form class="filters" id="filters" role="search">
+      <div class="wide"><label for="q">Search</label><input id="q" type="search" maxlength="80" placeholder="Search by title"></div>
+      <div><label for="genre">Genre</label><select id="genre"><option value="">All genres</option></select></div>
+      <div><label for="platform">Platform</label><select id="platform"><option value="">All platforms</option></select></div>
+      <div><label for="sort">Sort by</label>
+        <select id="sort">
+          <option value="top">Top rated</option>
+          <option value="newest">Newest</option>
+          <option value="reviews">Most reviewed</option>
+          <option value="title">Title A to Z</option>
+        </select></div>
+      <label class="check"><input id="local" type="checkbox"> Local/Indie only</label>
+    </form>
+    <p id="summary" class="muted summary"></p>
+    <div id="results" class="grid" aria-live="polite"></div>
+    <div id="pager" class="pager"></div>
+  </main>
+  <footer id="footer" class="site-footer"></footer>
+  <script type="module" src="js/catalog.js"></script>
+</body>
+</html>
