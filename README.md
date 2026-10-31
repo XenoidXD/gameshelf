@@ -1,5 +1,8 @@
 # GameShelf (static edition)
 
+> **📌 Disclaimer (Academic Capstone Project):**  
+> This project is **AI-generated** using **IBM Bob** and was created specifically to fulfill the Capstone Project requirements for the **IBM SkillsBuild - AI Agent for Programming** course.
+
 A game review website that runs entirely in the browser, so it can be hosted for free on **GitHub Pages**.
 Browse a catalog, write reviews and ratings, mark reviews as "Helpful", track games in a personal
 collection, and see the top games per genre.
