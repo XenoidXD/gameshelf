@@ -1,4 +1,5 @@
 # GameShelf (static edition)
+[https://xenoidxd.github.io/gameshelf/](https://xenoidxd.github.io/gameshelf/)
 
 > **📌 Disclaimer (Academic Capstone Project):**  
 > This project is **AI-generated** using **IBM Bob** and was created specifically to fulfill the Capstone Project requirements for the **IBM SkillsBuild - AI Agent for Programming** course.
