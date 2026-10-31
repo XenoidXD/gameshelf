@@ -153,3 +153,5 @@ gameshelf/
   a backend such as Firebase or Supabase, and `store.js` is the only file that would need to change.
 - Sample reviews and descriptions are fictional demo content.
 - Covers only appear after a RAWG sync.
+
+end
